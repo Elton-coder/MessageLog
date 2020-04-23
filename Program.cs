@@ -50,7 +50,7 @@ namespace MessageLog
                     using (var log = File.AppendText(logPath))
                     {
                         log.WriteLine(msg);
-                        log.Flush;
+                        log.Flush();
                     }
                 
                 }
@@ -77,7 +77,10 @@ namespace MessageLog
 
         static void Main(string[] args)
         {
+            // These two are not mutually exclusive
             Logger.WriteMessage += LoggingMethods.LogToConsole;
+            var file = new FileLogger("log.txt");
+
         }
     }
 }
