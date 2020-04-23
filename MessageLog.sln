@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageLog", "MessageLog.csproj", "{AEB02964-AD89-4949-BFA5-81F725DECDCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEB02964-AD89-4949-BFA5-81F725DECDCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEB02964-AD89-4949-BFA5-81F725DECDCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEB02964-AD89-4949-BFA5-81F725DECDCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEB02964-AD89-4949-BFA5-81F725DECDCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {199572B2-ED14-4EA3-8366-6258E0EB1111}
+	EndGlobalSection
+EndGlobal
